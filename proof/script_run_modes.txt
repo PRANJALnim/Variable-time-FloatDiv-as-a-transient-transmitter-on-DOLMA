@@ -1,0 +1,22 @@
+# Output of the final verify_modes.sh, same third build location. STT rows included.
+=== secret 1, all five modes, STT off ===
+  s1  mode=0 stt=0  Baseline                   slow(24)=3   restricted=0
+  s1  mode=1 stt=0  DOLMA-Default (M+R)        slow(24)=0   restricted=154
+  s1  mode=2 stt=0  DOLMA-Conservative (M+R)   slow(24)=0   restricted=199
+  s1  mode=3 stt=0  DOLMA-Default (M)          slow(24)=6   restricted=108
+  s1  mode=4 stt=0  DOLMA-Conservative (M)     slow(24)=6   restricted=106
+=== secret 1, the four DOLMA modes with STT on ===
+  s1  mode=1 stt=1  STT-Spectre (M+R)          slow(24)=0   restricted=0
+  s1  mode=2 stt=1  STT-Futuristic (M+R)       slow(24)=0   restricted=99
+  s1  mode=3 stt=1  STT-Spectre (M)            slow(24)=0   restricted=51
+  s1  mode=4 stt=1  STT-Futuristic (M)         slow(24)=0   restricted=105
+=== secret 0 (reference), all five modes, STT off ===
+  s0  mode=0 stt=0  Baseline                   slow(24)=0   restricted=0
+  s0  mode=1 stt=0  DOLMA-Default (M+R)        slow(24)=0   restricted=154
+  s0  mode=2 stt=0  DOLMA-Conservative (M+R)   slow(24)=0   restricted=199
+  s0  mode=3 stt=0  DOLMA-Default (M)          slow(24)=1   restricted=108
+  s0  mode=4 stt=0  DOLMA-Conservative (M)     slow(24)=1   restricted=106
+=== done ===
+3.2M	/home/mtp/pranjal/mtp_eval/study_verify/script_test/out_m
+/dev/sda4       381G  321G   60G  85% /
+

@@ -1,0 +1,58 @@
+tee: /home/mtp/pranjal/mtp_eval/verify_fresh/run.log: No such file or directory
+==================================================================
+ STEP 0  Rebuild the two secret binaries with -O0 (provenance)
+==================================================================
+gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+built transmitter_s0 and transmitter_s1 at -O0
+--- the divide opcode emitted (objdump), should be one 'divsd' ---
+  401d1e:	f2 0f 5e c1          	divsd  %xmm1,%xmm0
+
+==================================================================
+ STEP 1  BASELINE (mode 0): secret 0 vs secret 1
+   expect: s0 -> 0 slow divides,  s1 -> >=1 slow divide
+==================================================================
+  transmitter_s0  slow(op_latency=24)=0  fast(=6)=100  squashed_free=48
+  transmitter_s1  slow(op_latency=24)=2  fast(=6)=98  squashed_free=48
+
+==================================================================
+ STEP 2  Points 4+5: latency and FU busy interval for each slow divide
+   (baseline s1). busy interval = free_tick - issue_tick. 500 ticks = 1 cyc
+==================================================================
+  sn:49256  issue=34267500 free=34279000  busy=11500 ticks  (~23 cyc)
+  sn:53478  issue=35281000 free=35292500  busy=11500 ticks  (~23 cyc)
+  (compare: a FAST divide's busy interval)
+  sn:46255  issue=33499500 free=33502000  busy=2500 ticks  (~5 cyc)
+
+==================================================================
+ STEP 3  Point 7: the slow divide is SQUASHED and never commits
+   re-run s1 with the Commit trace, keep only the slow seqNum's lines
+==================================================================
+  slow (transmitting) seqNum = sn:49256
+### FloatDivChan: the slow divide issued and freed the FU (it executed)
+34.267.500: system.cpu.iq: [sn:49256] tid=0 ISSUE FloatDiv trivial=0 op_latency=24 issue_tick=34267500 restricted=0 ctrl=0 data=0 squashed=0
+34.279.000: system.cpu.iq: [sn:49256] tid=0 FREE FloatDiv free_tick=34279000 squashed=0
+
+### Commit stage: did sn:49256 reach commit head, and was it squashed?
+34.321.500: system.cpu.commit: Trying to commit head instruction, [sn:49256] [tid:0]
+34.321.500: system.cpu.commit: Retiring squashed instruction from ROB.
+
+### Commit stage: was sn:49256 ever actually committed? (must be empty)
+  --- VERDICT ---
+    sn:49256 committed count = 0   (expect 0 = never commits)
+    total 'Retiring squashed instruction' events = 32520  (>0 = squashes happen)
+  (deleted large commit trace; kept squash_proof.txt)
+
+==================================================================
+ STEP 4  Point 6: under DOLMA the slow divide is RESTRICTED / closed
+   expect: slow(24) -> 0, and restricted=1 divides appear
+==================================================================
+  s1 mode=1  slow(24)=0  restricted=1=154  (mode 1=Default, 2=Conservative)
+  s1 mode=2  slow(24)=0  restricted=1=213  (mode 1=Default, 2=Conservative)
+
+==================================================================
+ DONE. Fresh proof under: /home/mtp/pranjal/mtp_eval/verify_fresh
+==================================================================
+1.2M	/home/mtp/pranjal/mtp_eval/verify_fresh
+/dev/sda4       381G  321G   60G  85% /
+
+[exited with code 1]

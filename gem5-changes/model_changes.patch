@@ -1,0 +1,92 @@
+diff --git a/src/cpu/o3/FUPool.py b/src/cpu/o3/FUPool.py
+index 0f4ea67..775b6d8 100644
+--- a/src/cpu/o3/FUPool.py
++++ b/src/cpu/o3/FUPool.py
+@@ -38,4 +38,4 @@ class FUPool(SimObject):
+ 
+ class DefaultFUPool(FUPool):
+     FUList = [ IntALU(), IntMultDiv(), FP_ALU(), FP_MultDiv(), ReadPort(),
+-               SIMD_Unit(), WritePort(), RdWrPort(), IprPort() ]
++               SIMD_Unit(), SimdFP_Div(), WritePort(), RdWrPort(), IprPort() ]
+diff --git a/src/cpu/o3/FuncUnitConfig.py b/src/cpu/o3/FuncUnitConfig.py
+index f0c70f5..f090216 100644
+--- a/src/cpu/o3/FuncUnitConfig.py
++++ b/src/cpu/o3/FuncUnitConfig.py
+@@ -90,13 +90,16 @@ class SIMD_Unit(FUDesc):
+                OpDesc(opClass='SimdFloatAlu'),
+                OpDesc(opClass='SimdFloatCmp'),
+                OpDesc(opClass='SimdFloatCvt'),
+-               OpDesc(opClass='SimdFloatDiv'),
+                OpDesc(opClass='SimdFloatMisc'),
+                OpDesc(opClass='SimdFloatMult'),
+                OpDesc(opClass='SimdFloatMultAcc'),
+                OpDesc(opClass='SimdFloatSqrt') ]
+     count = 4
+ 
++class SimdFP_Div(FUDesc):
++    opList = [ OpDesc(opClass='SimdFloatDiv', opLat=24, pipelined=False) ]
++    count = 1
++
+ class ReadPort(FUDesc):
+     opList = [ OpDesc(opClass='MemRead'),
+                OpDesc(opClass='FloatMemRead') ]
+diff --git a/src/cpu/o3/SConscript b/src/cpu/o3/SConscript
+index bd028e6..ca4df34 100755
+--- a/src/cpu/o3/SConscript
++++ b/src/cpu/o3/SConscript
+@@ -62,6 +62,7 @@ if 'O3CPU' in env['CPU_MODELS']:
+     DebugFlag('CommitRate')
+     DebugFlag('IEW')
+     DebugFlag('IQ')
++    DebugFlag('FloatDivChan')
+     DebugFlag('LSQ')
+     DebugFlag('LSQUnit')
+     DebugFlag('MemDepUnit')
+diff --git a/src/cpu/o3/inst_queue_impl.hh b/src/cpu/o3/inst_queue_impl.hh
+index c5a6a1d..e3742a5 100644
+--- a/src/cpu/o3/inst_queue_impl.hh
++++ b/src/cpu/o3/inst_queue_impl.hh
+@@ -51,6 +51,7 @@
+ #include "cpu/o3/fu_pool.hh"
+ #include "cpu/o3/inst_queue.hh"
+ #include "debug/IQ.hh"
++#include "debug/FloatDivChan.hh"
+ #include "enums/OpClass.hh"
+ #include "params/DerivO3CPU.hh"
+ #include "sim/core.hh"
+@@ -764,6 +765,8 @@ void
+ InstructionQueue<Impl>::processFUCompletion(DynInstPtr &inst, int fu_idx)
+ {
+     DPRINTF(IQ, "Processing FU completion [sn:%lli]\n", inst->seqNum);
++    if (inst->staticInst->opClass() == FloatDivOp || inst->staticInst->opClass() == SimdFloatDivOp)
++        DPRINTF(FloatDivChan, "[sn:%lli] tid=%i FREE FloatDiv free_tick=%llu squashed=%d\n", inst->seqNum, inst->threadNumber, (unsigned long long)curTick(), inst->isSquashed());
+     assert(!cpu->switchedOut());
+     // The CPU could have been sleeping until this op completed (*extremely*
+     // long latency op).  Wake it if it was.  This may be overkill.
+@@ -948,6 +951,26 @@ InstructionQueue<Impl>::scheduleReadyInsts()
+             }
+             if (idx > FUPool::NoFreeFU) {
+                 op_latency = fuPool->getOpLatency(op_class);
++                // ==== variable-time FloatDiv covert-channel hook ====
++                if (op_class == FloatDivOp || op_class == SimdFloatDivOp) {
++                    bool trivial = false;
++                    for (int i = 0; i < issuing_inst->numSrcRegs(); ++i) {
++                        if (!issuing_inst->srcRegIdx(i).isFloatReg())
++                            continue;
++                        uint64_t bits = cpu->readFloatRegBits(
++                                            issuing_inst->renamedSrcRegIdx(i));
++                        DPRINTF(IQ, "[sn:%i] FloatDiv src%d bits=%#lx\n",
++                                issuing_inst->seqNum, i, (unsigned long)bits);
++                        if ((bits & 0x7fffffffffffffffULL) == 0ULL)
++                            trivial = true;
++                    }
++                    op_latency = trivial ? Cycles(6) : Cycles(24);
++                    DPRINTF(FloatDivChan, "[sn:%lli] tid=%i ISSUE FloatDiv trivial=%d op_latency=%d issue_tick=%llu restricted=%d ctrl=%d data=%d squashed=%d\n", issuing_inst->seqNum, tid, trivial, op_latency, (unsigned long long)curTick(), issuing_inst->isDolmaRestricted(), issuing_inst->isControlRestricted(), issuing_inst->isDataRestricted(), issuing_inst->isSquashed());
++                    DPRINTF(IQ, "[sn:%i] FloatDiv variable-time: numSrc=%d "
++                                "trivial=%d op_latency=%d\n",
++                            issuing_inst->seqNum, issuing_inst->numSrcRegs(),
++                            trivial, op_latency);
++                }
+             }
+         }
+ 

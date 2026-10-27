@@ -1,0 +1,408 @@
+36.471.000: system.cpu.iq: [sn:54068] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=36471000 restricted=0 ctrl=0 data=0 squashed=0
+36.473.500: system.cpu.iq: [sn:54068] tid=0 FREE FloatDiv free_tick=36473500 squashed=0
+36.629.000: system.cpu.iq: [sn:55262] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=36629000 restricted=1 ctrl=1 data=1 squashed=0
+36.631.500: system.cpu.iq: [sn:55262] tid=0 FREE FloatDiv free_tick=36631500 squashed=0
+36.645.000: system.cpu.iq: [sn:55412] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=36645000 restricted=1 ctrl=1 data=1 squashed=0
+36.647.500: system.cpu.iq: [sn:55412] tid=0 FREE FloatDiv free_tick=36647500 squashed=0
+36.722.500: system.cpu.iq: [sn:55472] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=36722500 restricted=0 ctrl=0 data=0 squashed=0
+36.725.000: system.cpu.iq: [sn:55472] tid=0 FREE FloatDiv free_tick=36725000 squashed=0
+36.804.500: system.cpu.iq: [sn:55974] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=36804500 restricted=1 ctrl=1 data=1 squashed=0
+36.807.000: system.cpu.iq: [sn:55974] tid=0 FREE FloatDiv free_tick=36807000 squashed=0
+36.824.500: system.cpu.iq: [sn:56097] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=36824500 restricted=1 ctrl=1 data=1 squashed=0
+36.827.000: system.cpu.iq: [sn:56097] tid=0 FREE FloatDiv free_tick=36827000 squashed=0
+36.841.500: system.cpu.iq: [sn:56247] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=36841500 restricted=1 ctrl=1 data=1 squashed=0
+36.844.000: system.cpu.iq: [sn:56247] tid=0 FREE FloatDiv free_tick=36844000 squashed=0
+36.905.000: system.cpu.iq: [sn:56307] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=36905000 restricted=0 ctrl=0 data=0 squashed=0
+36.907.500: system.cpu.iq: [sn:56307] tid=0 FREE FloatDiv free_tick=36907500 squashed=0
+36.987.000: system.cpu.iq: [sn:56809] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=36987000 restricted=1 ctrl=1 data=1 squashed=0
+36.989.500: system.cpu.iq: [sn:56809] tid=0 FREE FloatDiv free_tick=36989500 squashed=0
+37.007.000: system.cpu.iq: [sn:56932] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37007000 restricted=1 ctrl=1 data=1 squashed=0
+37.009.500: system.cpu.iq: [sn:56932] tid=0 FREE FloatDiv free_tick=37009500 squashed=0
+37.024.000: system.cpu.iq: [sn:57082] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37024000 restricted=1 ctrl=1 data=1 squashed=0
+37.026.500: system.cpu.iq: [sn:57082] tid=0 FREE FloatDiv free_tick=37026500 squashed=0
+37.087.500: system.cpu.iq: [sn:57142] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37087500 restricted=0 ctrl=0 data=0 squashed=0
+37.090.000: system.cpu.iq: [sn:57142] tid=0 FREE FloatDiv free_tick=37090000 squashed=0
+37.169.500: system.cpu.iq: [sn:57644] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37169500 restricted=1 ctrl=1 data=1 squashed=0
+37.172.000: system.cpu.iq: [sn:57644] tid=0 FREE FloatDiv free_tick=37172000 squashed=0
+37.189.500: system.cpu.iq: [sn:57767] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37189500 restricted=1 ctrl=1 data=1 squashed=0
+37.192.000: system.cpu.iq: [sn:57767] tid=0 FREE FloatDiv free_tick=37192000 squashed=0
+37.206.500: system.cpu.iq: [sn:57917] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37206500 restricted=1 ctrl=1 data=1 squashed=0
+37.209.000: system.cpu.iq: [sn:57917] tid=0 FREE FloatDiv free_tick=37209000 squashed=0
+37.270.000: system.cpu.iq: [sn:57977] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37270000 restricted=0 ctrl=0 data=0 squashed=0
+37.272.500: system.cpu.iq: [sn:57977] tid=0 FREE FloatDiv free_tick=37272500 squashed=0
+37.352.000: system.cpu.iq: [sn:58479] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37352000 restricted=1 ctrl=1 data=1 squashed=0
+37.354.500: system.cpu.iq: [sn:58479] tid=0 FREE FloatDiv free_tick=37354500 squashed=0
+37.375.500: system.cpu.iq: [sn:58649] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37375500 restricted=1 ctrl=1 data=1 squashed=0
+37.378.000: system.cpu.iq: [sn:58649] tid=0 FREE FloatDiv free_tick=37378000 squashed=0
+37.598.000: system.cpu.iq: [sn:59575] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37598000 restricted=1 ctrl=1 data=1 squashed=0
+37.600.500: system.cpu.iq: [sn:59575] tid=0 FREE FloatDiv free_tick=37600500 squashed=0
+37.685.000: system.cpu.iq: [sn:59662] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37685000 restricted=0 ctrl=0 data=0 squashed=0
+37.687.500: system.cpu.iq: [sn:59662] tid=0 FREE FloatDiv free_tick=37687500 squashed=0
+37.789.000: system.cpu.iq: [sn:60358] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37789000 restricted=1 ctrl=1 data=1 squashed=0
+37.791.500: system.cpu.iq: [sn:60358] tid=0 FREE FloatDiv free_tick=37791500 squashed=0
+37.813.500: system.cpu.iq: [sn:60513] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37813500 restricted=1 ctrl=1 data=1 squashed=0
+37.816.000: system.cpu.iq: [sn:60513] tid=0 FREE FloatDiv free_tick=37816000 squashed=0
+37.886.500: system.cpu.iq: [sn:60632] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37886500 restricted=0 ctrl=0 data=0 squashed=0
+37.889.000: system.cpu.iq: [sn:60632] tid=0 FREE FloatDiv free_tick=37889000 squashed=0
+37.976.000: system.cpu.iq: [sn:61204] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=37976000 restricted=1 ctrl=1 data=1 squashed=0
+37.978.500: system.cpu.iq: [sn:61204] tid=0 FREE FloatDiv free_tick=37978500 squashed=0
+38.003.500: system.cpu.iq: [sn:61361] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38003500 restricted=1 ctrl=1 data=1 squashed=0
+38.006.000: system.cpu.iq: [sn:61361] tid=0 FREE FloatDiv free_tick=38006000 squashed=0
+38.020.500: system.cpu.iq: [sn:61511] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38020500 restricted=1 ctrl=1 data=1 squashed=0
+38.023.000: system.cpu.iq: [sn:61511] tid=0 FREE FloatDiv free_tick=38023000 squashed=0
+38.081.500: system.cpu.iq: [sn:61571] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38081500 restricted=0 ctrl=0 data=0 squashed=0
+38.084.000: system.cpu.iq: [sn:61571] tid=0 FREE FloatDiv free_tick=38084000 squashed=0
+38.163.500: system.cpu.iq: [sn:62073] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38163500 restricted=1 ctrl=1 data=1 squashed=0
+38.166.000: system.cpu.iq: [sn:62073] tid=0 FREE FloatDiv free_tick=38166000 squashed=0
+38.183.500: system.cpu.iq: [sn:62196] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38183500 restricted=1 ctrl=1 data=1 squashed=0
+38.186.000: system.cpu.iq: [sn:62196] tid=0 FREE FloatDiv free_tick=38186000 squashed=0
+38.200.500: system.cpu.iq: [sn:62346] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38200500 restricted=1 ctrl=1 data=1 squashed=0
+38.203.000: system.cpu.iq: [sn:62346] tid=0 FREE FloatDiv free_tick=38203000 squashed=0
+38.264.000: system.cpu.iq: [sn:62406] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38264000 restricted=0 ctrl=0 data=0 squashed=0
+38.266.500: system.cpu.iq: [sn:62406] tid=0 FREE FloatDiv free_tick=38266500 squashed=0
+38.346.000: system.cpu.iq: [sn:62908] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38346000 restricted=1 ctrl=1 data=1 squashed=0
+38.348.500: system.cpu.iq: [sn:62908] tid=0 FREE FloatDiv free_tick=38348500 squashed=0
+38.366.000: system.cpu.iq: [sn:63031] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38366000 restricted=1 ctrl=1 data=1 squashed=0
+38.368.500: system.cpu.iq: [sn:63031] tid=0 FREE FloatDiv free_tick=38368500 squashed=0
+38.383.000: system.cpu.iq: [sn:63181] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38383000 restricted=1 ctrl=1 data=1 squashed=0
+38.385.500: system.cpu.iq: [sn:63181] tid=0 FREE FloatDiv free_tick=38385500 squashed=0
+38.446.500: system.cpu.iq: [sn:63241] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38446500 restricted=0 ctrl=0 data=0 squashed=0
+38.449.000: system.cpu.iq: [sn:63241] tid=0 FREE FloatDiv free_tick=38449000 squashed=0
+38.528.500: system.cpu.iq: [sn:63743] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38528500 restricted=1 ctrl=1 data=1 squashed=0
+38.531.000: system.cpu.iq: [sn:63743] tid=0 FREE FloatDiv free_tick=38531000 squashed=0
+38.552.000: system.cpu.iq: [sn:63913] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38552000 restricted=1 ctrl=1 data=1 squashed=0
+38.554.500: system.cpu.iq: [sn:63913] tid=0 FREE FloatDiv free_tick=38554500 squashed=0
+38.711.500: system.cpu.iq: [sn:64382] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38711500 restricted=1 ctrl=1 data=1 squashed=0
+38.714.000: system.cpu.iq: [sn:64382] tid=0 FREE FloatDiv free_tick=38714000 squashed=0
+38.738.000: system.cpu.iq: [sn:64521] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38738000 restricted=1 ctrl=1 data=1 squashed=0
+38.740.500: system.cpu.iq: [sn:64521] tid=0 FREE FloatDiv free_tick=38740500 squashed=0
+38.754.000: system.cpu.iq: [sn:64671] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38754000 restricted=1 ctrl=1 data=1 squashed=0
+38.756.500: system.cpu.iq: [sn:64671] tid=0 FREE FloatDiv free_tick=38756500 squashed=0
+38.817.000: system.cpu.iq: [sn:64731] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38817000 restricted=0 ctrl=0 data=0 squashed=0
+38.819.500: system.cpu.iq: [sn:64731] tid=0 FREE FloatDiv free_tick=38819500 squashed=0
+38.899.000: system.cpu.iq: [sn:65233] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38899000 restricted=1 ctrl=1 data=1 squashed=0
+38.901.500: system.cpu.iq: [sn:65233] tid=0 FREE FloatDiv free_tick=38901500 squashed=0
+38.919.000: system.cpu.iq: [sn:65356] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38919000 restricted=1 ctrl=1 data=1 squashed=0
+38.921.500: system.cpu.iq: [sn:65356] tid=0 FREE FloatDiv free_tick=38921500 squashed=0
+38.936.000: system.cpu.iq: [sn:65506] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38936000 restricted=1 ctrl=1 data=1 squashed=0
+38.938.500: system.cpu.iq: [sn:65506] tid=0 FREE FloatDiv free_tick=38938500 squashed=0
+38.999.500: system.cpu.iq: [sn:65566] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=38999500 restricted=0 ctrl=0 data=0 squashed=0
+39.002.000: system.cpu.iq: [sn:65566] tid=0 FREE FloatDiv free_tick=39002000 squashed=0
+39.081.500: system.cpu.iq: [sn:66068] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39081500 restricted=1 ctrl=1 data=1 squashed=0
+39.084.000: system.cpu.iq: [sn:66068] tid=0 FREE FloatDiv free_tick=39084000 squashed=0
+39.101.500: system.cpu.iq: [sn:66191] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39101500 restricted=1 ctrl=1 data=1 squashed=0
+39.104.000: system.cpu.iq: [sn:66191] tid=0 FREE FloatDiv free_tick=39104000 squashed=0
+39.118.500: system.cpu.iq: [sn:66341] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39118500 restricted=1 ctrl=1 data=1 squashed=0
+39.121.000: system.cpu.iq: [sn:66341] tid=0 FREE FloatDiv free_tick=39121000 squashed=0
+39.182.000: system.cpu.iq: [sn:66401] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39182000 restricted=0 ctrl=0 data=0 squashed=0
+39.184.500: system.cpu.iq: [sn:66401] tid=0 FREE FloatDiv free_tick=39184500 squashed=0
+39.264.000: system.cpu.iq: [sn:66903] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39264000 restricted=1 ctrl=1 data=1 squashed=0
+39.266.500: system.cpu.iq: [sn:66903] tid=0 FREE FloatDiv free_tick=39266500 squashed=0
+39.284.000: system.cpu.iq: [sn:67026] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39284000 restricted=1 ctrl=1 data=1 squashed=0
+39.286.500: system.cpu.iq: [sn:67026] tid=0 FREE FloatDiv free_tick=39286500 squashed=0
+39.301.000: system.cpu.iq: [sn:67176] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39301000 restricted=1 ctrl=1 data=1 squashed=0
+39.303.500: system.cpu.iq: [sn:67176] tid=0 FREE FloatDiv free_tick=39303500 squashed=0
+39.364.500: system.cpu.iq: [sn:67236] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39364500 restricted=0 ctrl=0 data=0 squashed=0
+39.367.000: system.cpu.iq: [sn:67236] tid=0 FREE FloatDiv free_tick=39367000 squashed=0
+39.446.500: system.cpu.iq: [sn:67738] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39446500 restricted=1 ctrl=1 data=1 squashed=0
+39.449.000: system.cpu.iq: [sn:67738] tid=0 FREE FloatDiv free_tick=39449000 squashed=0
+39.466.500: system.cpu.iq: [sn:67861] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39466500 restricted=1 ctrl=1 data=1 squashed=0
+39.469.000: system.cpu.iq: [sn:67861] tid=0 FREE FloatDiv free_tick=39469000 squashed=0
+39.483.500: system.cpu.iq: [sn:68011] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39483500 restricted=1 ctrl=1 data=1 squashed=0
+39.486.000: system.cpu.iq: [sn:68011] tid=0 FREE FloatDiv free_tick=39486000 squashed=0
+39.547.000: system.cpu.iq: [sn:68071] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39547000 restricted=0 ctrl=0 data=0 squashed=0
+39.549.500: system.cpu.iq: [sn:68071] tid=0 FREE FloatDiv free_tick=39549500 squashed=0
+39.629.000: system.cpu.iq: [sn:68573] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39629000 restricted=1 ctrl=1 data=1 squashed=0
+39.631.500: system.cpu.iq: [sn:68573] tid=0 FREE FloatDiv free_tick=39631500 squashed=0
+39.646.000: system.cpu.iq: [sn:68674] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39646000 restricted=1 ctrl=1 data=1 squashed=0
+39.648.500: system.cpu.iq: [sn:68674] tid=0 FREE FloatDiv free_tick=39648500 squashed=1
+39.656.000: system.cpu.iq: [sn:68756] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39656000 restricted=1 ctrl=1 data=1 squashed=0
+39.658.500: system.cpu.iq: [sn:68756] tid=0 FREE FloatDiv free_tick=39658500 squashed=0
+39.790.500: system.cpu.iq: [sn:69217] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39790500 restricted=1 ctrl=1 data=1 squashed=0
+39.793.000: system.cpu.iq: [sn:69217] tid=0 FREE FloatDiv free_tick=39793000 squashed=0
+39.808.000: system.cpu.iq: [sn:69356] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39808000 restricted=1 ctrl=1 data=1 squashed=0
+39.810.500: system.cpu.iq: [sn:69356] tid=0 FREE FloatDiv free_tick=39810500 squashed=0
+39.880.000: system.cpu.iq: [sn:69475] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39880000 restricted=0 ctrl=0 data=0 squashed=0
+39.882.500: system.cpu.iq: [sn:69475] tid=0 FREE FloatDiv free_tick=39882500 squashed=0
+39.965.000: system.cpu.iq: [sn:70004] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39965000 restricted=1 ctrl=1 data=1 squashed=0
+39.967.500: system.cpu.iq: [sn:70004] tid=0 FREE FloatDiv free_tick=39967500 squashed=0
+39.990.500: system.cpu.iq: [sn:70151] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=39990500 restricted=1 ctrl=1 data=1 squashed=0
+39.993.000: system.cpu.iq: [sn:70151] tid=0 FREE FloatDiv free_tick=39993000 squashed=0
+40.007.000: system.cpu.iq: [sn:70301] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40007000 restricted=1 ctrl=1 data=1 squashed=0
+40.009.500: system.cpu.iq: [sn:70301] tid=0 FREE FloatDiv free_tick=40009500 squashed=0
+40.069.500: system.cpu.iq: [sn:70361] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40069500 restricted=0 ctrl=0 data=0 squashed=0
+40.072.000: system.cpu.iq: [sn:70361] tid=0 FREE FloatDiv free_tick=40072000 squashed=0
+40.151.500: system.cpu.iq: [sn:70863] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40151500 restricted=1 ctrl=1 data=1 squashed=0
+40.154.000: system.cpu.iq: [sn:70863] tid=0 FREE FloatDiv free_tick=40154000 squashed=0
+40.171.500: system.cpu.iq: [sn:70986] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40171500 restricted=1 ctrl=1 data=1 squashed=0
+40.174.000: system.cpu.iq: [sn:70986] tid=0 FREE FloatDiv free_tick=40174000 squashed=0
+40.188.500: system.cpu.iq: [sn:71136] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40188500 restricted=1 ctrl=1 data=1 squashed=0
+40.191.000: system.cpu.iq: [sn:71136] tid=0 FREE FloatDiv free_tick=40191000 squashed=0
+40.252.000: system.cpu.iq: [sn:71196] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40252000 restricted=0 ctrl=0 data=0 squashed=0
+40.254.500: system.cpu.iq: [sn:71196] tid=0 FREE FloatDiv free_tick=40254500 squashed=0
+40.334.000: system.cpu.iq: [sn:71698] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40334000 restricted=1 ctrl=1 data=1 squashed=0
+40.336.500: system.cpu.iq: [sn:71698] tid=0 FREE FloatDiv free_tick=40336500 squashed=0
+40.354.000: system.cpu.iq: [sn:71821] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40354000 restricted=1 ctrl=1 data=1 squashed=0
+40.356.500: system.cpu.iq: [sn:71821] tid=0 FREE FloatDiv free_tick=40356500 squashed=0
+40.371.000: system.cpu.iq: [sn:71971] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40371000 restricted=1 ctrl=1 data=1 squashed=0
+40.373.500: system.cpu.iq: [sn:71971] tid=0 FREE FloatDiv free_tick=40373500 squashed=0
+40.434.500: system.cpu.iq: [sn:72031] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40434500 restricted=0 ctrl=0 data=0 squashed=0
+40.437.000: system.cpu.iq: [sn:72031] tid=0 FREE FloatDiv free_tick=40437000 squashed=0
+40.516.500: system.cpu.iq: [sn:72533] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40516500 restricted=1 ctrl=1 data=1 squashed=0
+40.519.000: system.cpu.iq: [sn:72533] tid=0 FREE FloatDiv free_tick=40519000 squashed=0
+40.536.500: system.cpu.iq: [sn:72656] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40536500 restricted=1 ctrl=1 data=1 squashed=0
+40.539.000: system.cpu.iq: [sn:72656] tid=0 FREE FloatDiv free_tick=40539000 squashed=0
+40.553.500: system.cpu.iq: [sn:72806] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40553500 restricted=1 ctrl=1 data=1 squashed=0
+40.556.000: system.cpu.iq: [sn:72806] tid=0 FREE FloatDiv free_tick=40556000 squashed=0
+40.617.000: system.cpu.iq: [sn:72866] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40617000 restricted=0 ctrl=0 data=0 squashed=0
+40.619.500: system.cpu.iq: [sn:72866] tid=0 FREE FloatDiv free_tick=40619500 squashed=0
+40.699.000: system.cpu.iq: [sn:73368] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40699000 restricted=1 ctrl=1 data=1 squashed=0
+40.701.500: system.cpu.iq: [sn:73368] tid=0 FREE FloatDiv free_tick=40701500 squashed=0
+40.716.000: system.cpu.iq: [sn:73469] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40716000 restricted=1 ctrl=1 data=1 squashed=0
+40.718.500: system.cpu.iq: [sn:73469] tid=0 FREE FloatDiv free_tick=40718500 squashed=0
+40.733.000: system.cpu.iq: [sn:73619] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40733000 restricted=1 ctrl=1 data=1 squashed=0
+40.735.500: system.cpu.iq: [sn:73619] tid=0 FREE FloatDiv free_tick=40735500 squashed=0
+40.873.500: system.cpu.iq: [sn:74029] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40873500 restricted=1 ctrl=1 data=1 squashed=0
+40.876.000: system.cpu.iq: [sn:74029] tid=0 FREE FloatDiv free_tick=40876000 squashed=0
+40.897.500: system.cpu.iq: [sn:74176] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40897500 restricted=1 ctrl=1 data=1 squashed=0
+40.900.000: system.cpu.iq: [sn:74176] tid=0 FREE FloatDiv free_tick=40900000 squashed=0
+40.972.000: system.cpu.iq: [sn:74295] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=40972000 restricted=0 ctrl=0 data=0 squashed=0
+40.974.500: system.cpu.iq: [sn:74295] tid=0 FREE FloatDiv free_tick=40974500 squashed=0
+41.057.000: system.cpu.iq: [sn:74824] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41057000 restricted=1 ctrl=1 data=1 squashed=0
+41.059.500: system.cpu.iq: [sn:74824] tid=0 FREE FloatDiv free_tick=41059500 squashed=0
+41.082.500: system.cpu.iq: [sn:74971] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41082500 restricted=1 ctrl=1 data=1 squashed=0
+41.085.000: system.cpu.iq: [sn:74971] tid=0 FREE FloatDiv free_tick=41085000 squashed=0
+41.099.000: system.cpu.iq: [sn:75121] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41099000 restricted=1 ctrl=1 data=1 squashed=0
+41.101.500: system.cpu.iq: [sn:75121] tid=0 FREE FloatDiv free_tick=41101500 squashed=0
+41.161.500: system.cpu.iq: [sn:75181] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41161500 restricted=0 ctrl=0 data=0 squashed=0
+41.164.000: system.cpu.iq: [sn:75181] tid=0 FREE FloatDiv free_tick=41164000 squashed=0
+41.243.500: system.cpu.iq: [sn:75683] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41243500 restricted=1 ctrl=1 data=1 squashed=0
+41.246.000: system.cpu.iq: [sn:75683] tid=0 FREE FloatDiv free_tick=41246000 squashed=0
+41.263.500: system.cpu.iq: [sn:75806] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41263500 restricted=1 ctrl=1 data=1 squashed=0
+41.266.000: system.cpu.iq: [sn:75806] tid=0 FREE FloatDiv free_tick=41266000 squashed=0
+41.280.500: system.cpu.iq: [sn:75956] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41280500 restricted=1 ctrl=1 data=1 squashed=0
+41.283.000: system.cpu.iq: [sn:75956] tid=0 FREE FloatDiv free_tick=41283000 squashed=0
+41.344.000: system.cpu.iq: [sn:76016] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41344000 restricted=0 ctrl=0 data=0 squashed=0
+41.346.500: system.cpu.iq: [sn:76016] tid=0 FREE FloatDiv free_tick=41346500 squashed=0
+41.426.000: system.cpu.iq: [sn:76518] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41426000 restricted=1 ctrl=1 data=1 squashed=0
+41.428.500: system.cpu.iq: [sn:76518] tid=0 FREE FloatDiv free_tick=41428500 squashed=0
+41.446.000: system.cpu.iq: [sn:76641] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41446000 restricted=1 ctrl=1 data=1 squashed=0
+41.448.500: system.cpu.iq: [sn:76641] tid=0 FREE FloatDiv free_tick=41448500 squashed=0
+41.463.000: system.cpu.iq: [sn:76791] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41463000 restricted=1 ctrl=1 data=1 squashed=0
+41.465.500: system.cpu.iq: [sn:76791] tid=0 FREE FloatDiv free_tick=41465500 squashed=0
+41.526.500: system.cpu.iq: [sn:76851] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41526500 restricted=0 ctrl=0 data=0 squashed=0
+41.529.000: system.cpu.iq: [sn:76851] tid=0 FREE FloatDiv free_tick=41529000 squashed=0
+41.608.500: system.cpu.iq: [sn:77353] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41608500 restricted=1 ctrl=1 data=1 squashed=0
+41.611.000: system.cpu.iq: [sn:77353] tid=0 FREE FloatDiv free_tick=41611000 squashed=0
+41.628.500: system.cpu.iq: [sn:77476] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41628500 restricted=1 ctrl=1 data=1 squashed=0
+41.631.000: system.cpu.iq: [sn:77476] tid=0 FREE FloatDiv free_tick=41631000 squashed=0
+41.645.500: system.cpu.iq: [sn:77626] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41645500 restricted=1 ctrl=1 data=1 squashed=0
+41.648.000: system.cpu.iq: [sn:77626] tid=0 FREE FloatDiv free_tick=41648000 squashed=0
+41.709.000: system.cpu.iq: [sn:77686] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41709000 restricted=0 ctrl=0 data=0 squashed=0
+41.711.500: system.cpu.iq: [sn:77686] tid=0 FREE FloatDiv free_tick=41711500 squashed=0
+41.791.000: system.cpu.iq: [sn:78188] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41791000 restricted=1 ctrl=1 data=1 squashed=0
+41.793.500: system.cpu.iq: [sn:78188] tid=0 FREE FloatDiv free_tick=41793500 squashed=0
+41.808.000: system.cpu.iq: [sn:78289] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41808000 restricted=1 ctrl=1 data=1 squashed=0
+41.810.500: system.cpu.iq: [sn:78289] tid=0 FREE FloatDiv free_tick=41810500 squashed=0
+41.825.000: system.cpu.iq: [sn:78439] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41825000 restricted=1 ctrl=1 data=1 squashed=0
+41.827.500: system.cpu.iq: [sn:78439] tid=0 FREE FloatDiv free_tick=41827500 squashed=0
+41.964.500: system.cpu.iq: [sn:78816] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41964500 restricted=1 ctrl=1 data=1 squashed=0
+41.967.000: system.cpu.iq: [sn:78816] tid=0 FREE FloatDiv free_tick=41967000 squashed=0
+41.990.000: system.cpu.iq: [sn:78963] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=41990000 restricted=1 ctrl=1 data=1 squashed=0
+41.992.500: system.cpu.iq: [sn:78963] tid=0 FREE FloatDiv free_tick=41992500 squashed=0
+42.006.500: system.cpu.iq: [sn:79113] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42006500 restricted=1 ctrl=1 data=1 squashed=0
+42.009.000: system.cpu.iq: [sn:79113] tid=0 FREE FloatDiv free_tick=42009000 squashed=0
+42.069.000: system.cpu.iq: [sn:79173] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42069000 restricted=0 ctrl=0 data=0 squashed=0
+42.071.500: system.cpu.iq: [sn:79173] tid=0 FREE FloatDiv free_tick=42071500 squashed=0
+42.151.000: system.cpu.iq: [sn:79675] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42151000 restricted=1 ctrl=1 data=1 squashed=0
+42.153.500: system.cpu.iq: [sn:79675] tid=0 FREE FloatDiv free_tick=42153500 squashed=0
+42.171.000: system.cpu.iq: [sn:79798] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42171000 restricted=1 ctrl=1 data=1 squashed=0
+42.173.500: system.cpu.iq: [sn:79798] tid=0 FREE FloatDiv free_tick=42173500 squashed=0
+42.188.000: system.cpu.iq: [sn:79948] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42188000 restricted=1 ctrl=1 data=1 squashed=0
+42.190.500: system.cpu.iq: [sn:79948] tid=0 FREE FloatDiv free_tick=42190500 squashed=0
+42.251.500: system.cpu.iq: [sn:80008] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42251500 restricted=0 ctrl=0 data=0 squashed=0
+42.254.000: system.cpu.iq: [sn:80008] tid=0 FREE FloatDiv free_tick=42254000 squashed=0
+42.333.500: system.cpu.iq: [sn:80510] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42333500 restricted=1 ctrl=1 data=1 squashed=0
+42.336.000: system.cpu.iq: [sn:80510] tid=0 FREE FloatDiv free_tick=42336000 squashed=0
+42.353.500: system.cpu.iq: [sn:80633] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42353500 restricted=1 ctrl=1 data=1 squashed=0
+42.356.000: system.cpu.iq: [sn:80633] tid=0 FREE FloatDiv free_tick=42356000 squashed=0
+42.370.500: system.cpu.iq: [sn:80783] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42370500 restricted=1 ctrl=1 data=1 squashed=0
+42.373.000: system.cpu.iq: [sn:80783] tid=0 FREE FloatDiv free_tick=42373000 squashed=0
+42.434.000: system.cpu.iq: [sn:80843] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42434000 restricted=0 ctrl=0 data=0 squashed=0
+42.436.500: system.cpu.iq: [sn:80843] tid=0 FREE FloatDiv free_tick=42436500 squashed=0
+42.516.000: system.cpu.iq: [sn:81345] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42516000 restricted=1 ctrl=1 data=1 squashed=0
+42.518.500: system.cpu.iq: [sn:81345] tid=0 FREE FloatDiv free_tick=42518500 squashed=0
+42.536.000: system.cpu.iq: [sn:81468] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42536000 restricted=1 ctrl=1 data=1 squashed=0
+42.538.500: system.cpu.iq: [sn:81468] tid=0 FREE FloatDiv free_tick=42538500 squashed=0
+42.553.000: system.cpu.iq: [sn:81618] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42553000 restricted=1 ctrl=1 data=1 squashed=0
+42.555.500: system.cpu.iq: [sn:81618] tid=0 FREE FloatDiv free_tick=42555500 squashed=0
+42.616.500: system.cpu.iq: [sn:81678] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42616500 restricted=0 ctrl=0 data=0 squashed=0
+42.619.000: system.cpu.iq: [sn:81678] tid=0 FREE FloatDiv free_tick=42619000 squashed=0
+42.698.500: system.cpu.iq: [sn:82180] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42698500 restricted=1 ctrl=1 data=1 squashed=0
+42.701.000: system.cpu.iq: [sn:82180] tid=0 FREE FloatDiv free_tick=42701000 squashed=0
+42.718.500: system.cpu.iq: [sn:82303] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42718500 restricted=1 ctrl=1 data=1 squashed=0
+42.721.000: system.cpu.iq: [sn:82303] tid=0 FREE FloatDiv free_tick=42721000 squashed=0
+42.801.000: system.cpu.iq: [sn:82525] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42801000 restricted=0 ctrl=0 data=0 squashed=0
+42.803.500: system.cpu.iq: [sn:82525] tid=0 FREE FloatDiv free_tick=42803500 squashed=0
+42.908.000: system.cpu.iq: [sn:83197] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=42908000 restricted=1 ctrl=1 data=1 squashed=0
+42.910.500: system.cpu.iq: [sn:83197] tid=0 FREE FloatDiv free_tick=42910500 squashed=0
+43.039.500: system.cpu.iq: [sn:83519] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43039500 restricted=1 ctrl=1 data=1 squashed=0
+43.042.000: system.cpu.iq: [sn:83519] tid=0 FREE FloatDiv free_tick=43042000 squashed=0
+43.065.000: system.cpu.iq: [sn:83666] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43065000 restricted=1 ctrl=1 data=1 squashed=0
+43.067.500: system.cpu.iq: [sn:83666] tid=0 FREE FloatDiv free_tick=43067500 squashed=0
+43.081.500: system.cpu.iq: [sn:83816] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43081500 restricted=1 ctrl=1 data=1 squashed=0
+43.084.000: system.cpu.iq: [sn:83816] tid=0 FREE FloatDiv free_tick=43084000 squashed=0
+43.144.000: system.cpu.iq: [sn:83876] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43144000 restricted=0 ctrl=0 data=0 squashed=0
+43.146.500: system.cpu.iq: [sn:83876] tid=0 FREE FloatDiv free_tick=43146500 squashed=0
+43.226.000: system.cpu.iq: [sn:84378] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43226000 restricted=1 ctrl=1 data=1 squashed=0
+43.228.500: system.cpu.iq: [sn:84378] tid=0 FREE FloatDiv free_tick=43228500 squashed=0
+43.246.000: system.cpu.iq: [sn:84501] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43246000 restricted=1 ctrl=1 data=1 squashed=0
+43.248.500: system.cpu.iq: [sn:84501] tid=0 FREE FloatDiv free_tick=43248500 squashed=0
+43.263.000: system.cpu.iq: [sn:84651] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43263000 restricted=1 ctrl=1 data=1 squashed=0
+43.265.500: system.cpu.iq: [sn:84651] tid=0 FREE FloatDiv free_tick=43265500 squashed=0
+43.326.500: system.cpu.iq: [sn:84711] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43326500 restricted=0 ctrl=0 data=0 squashed=0
+43.329.000: system.cpu.iq: [sn:84711] tid=0 FREE FloatDiv free_tick=43329000 squashed=0
+43.408.500: system.cpu.iq: [sn:85213] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43408500 restricted=1 ctrl=1 data=1 squashed=0
+43.411.000: system.cpu.iq: [sn:85213] tid=0 FREE FloatDiv free_tick=43411000 squashed=0
+43.428.500: system.cpu.iq: [sn:85336] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43428500 restricted=1 ctrl=1 data=1 squashed=0
+43.431.000: system.cpu.iq: [sn:85336] tid=0 FREE FloatDiv free_tick=43431000 squashed=0
+43.445.500: system.cpu.iq: [sn:85486] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43445500 restricted=1 ctrl=1 data=1 squashed=0
+43.448.000: system.cpu.iq: [sn:85486] tid=0 FREE FloatDiv free_tick=43448000 squashed=0
+43.509.000: system.cpu.iq: [sn:85546] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43509000 restricted=0 ctrl=0 data=0 squashed=0
+43.511.500: system.cpu.iq: [sn:85546] tid=0 FREE FloatDiv free_tick=43511500 squashed=0
+43.591.000: system.cpu.iq: [sn:86048] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43591000 restricted=1 ctrl=1 data=1 squashed=0
+43.593.500: system.cpu.iq: [sn:86048] tid=0 FREE FloatDiv free_tick=43593500 squashed=0
+43.611.000: system.cpu.iq: [sn:86171] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43611000 restricted=1 ctrl=1 data=1 squashed=0
+43.613.500: system.cpu.iq: [sn:86171] tid=0 FREE FloatDiv free_tick=43613500 squashed=0
+43.628.000: system.cpu.iq: [sn:86321] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43628000 restricted=1 ctrl=1 data=1 squashed=0
+43.630.500: system.cpu.iq: [sn:86321] tid=0 FREE FloatDiv free_tick=43630500 squashed=0
+43.691.500: system.cpu.iq: [sn:86381] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43691500 restricted=0 ctrl=0 data=0 squashed=0
+43.694.000: system.cpu.iq: [sn:86381] tid=0 FREE FloatDiv free_tick=43694000 squashed=0
+43.773.500: system.cpu.iq: [sn:86883] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43773500 restricted=1 ctrl=1 data=1 squashed=0
+43.776.000: system.cpu.iq: [sn:86883] tid=0 FREE FloatDiv free_tick=43776000 squashed=0
+43.793.500: system.cpu.iq: [sn:87006] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43793500 restricted=1 ctrl=1 data=1 squashed=0
+43.796.000: system.cpu.iq: [sn:87006] tid=0 FREE FloatDiv free_tick=43796000 squashed=0
+43.876.000: system.cpu.iq: [sn:87228] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43876000 restricted=0 ctrl=0 data=0 squashed=0
+43.878.500: system.cpu.iq: [sn:87228] tid=0 FREE FloatDiv free_tick=43878500 squashed=0
+43.983.000: system.cpu.iq: [sn:87900] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=43983000 restricted=1 ctrl=1 data=1 squashed=0
+43.985.500: system.cpu.iq: [sn:87900] tid=0 FREE FloatDiv free_tick=43985500 squashed=0
+44.114.500: system.cpu.iq: [sn:88222] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44114500 restricted=1 ctrl=1 data=1 squashed=0
+44.117.000: system.cpu.iq: [sn:88222] tid=0 FREE FloatDiv free_tick=44117000 squashed=0
+44.140.000: system.cpu.iq: [sn:88369] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44140000 restricted=1 ctrl=1 data=1 squashed=0
+44.142.500: system.cpu.iq: [sn:88369] tid=0 FREE FloatDiv free_tick=44142500 squashed=0
+44.156.500: system.cpu.iq: [sn:88519] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44156500 restricted=1 ctrl=1 data=1 squashed=0
+44.159.000: system.cpu.iq: [sn:88519] tid=0 FREE FloatDiv free_tick=44159000 squashed=0
+44.219.000: system.cpu.iq: [sn:88579] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44219000 restricted=0 ctrl=0 data=0 squashed=0
+44.221.500: system.cpu.iq: [sn:88579] tid=0 FREE FloatDiv free_tick=44221500 squashed=0
+44.301.000: system.cpu.iq: [sn:89081] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44301000 restricted=1 ctrl=1 data=1 squashed=0
+44.303.500: system.cpu.iq: [sn:89081] tid=0 FREE FloatDiv free_tick=44303500 squashed=0
+44.321.000: system.cpu.iq: [sn:89204] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44321000 restricted=1 ctrl=1 data=1 squashed=0
+44.323.500: system.cpu.iq: [sn:89204] tid=0 FREE FloatDiv free_tick=44323500 squashed=0
+44.338.000: system.cpu.iq: [sn:89354] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44338000 restricted=1 ctrl=1 data=1 squashed=0
+44.340.500: system.cpu.iq: [sn:89354] tid=0 FREE FloatDiv free_tick=44340500 squashed=0
+44.401.500: system.cpu.iq: [sn:89414] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44401500 restricted=0 ctrl=0 data=0 squashed=0
+44.404.000: system.cpu.iq: [sn:89414] tid=0 FREE FloatDiv free_tick=44404000 squashed=0
+44.483.500: system.cpu.iq: [sn:89916] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44483500 restricted=1 ctrl=1 data=1 squashed=0
+44.486.000: system.cpu.iq: [sn:89916] tid=0 FREE FloatDiv free_tick=44486000 squashed=0
+44.503.500: system.cpu.iq: [sn:90039] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44503500 restricted=1 ctrl=1 data=1 squashed=0
+44.506.000: system.cpu.iq: [sn:90039] tid=0 FREE FloatDiv free_tick=44506000 squashed=0
+44.520.500: system.cpu.iq: [sn:90189] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44520500 restricted=1 ctrl=1 data=1 squashed=0
+44.523.000: system.cpu.iq: [sn:90189] tid=0 FREE FloatDiv free_tick=44523000 squashed=0
+44.584.000: system.cpu.iq: [sn:90249] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44584000 restricted=0 ctrl=0 data=0 squashed=0
+44.586.500: system.cpu.iq: [sn:90249] tid=0 FREE FloatDiv free_tick=44586500 squashed=0
+44.666.000: system.cpu.iq: [sn:90751] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44666000 restricted=1 ctrl=1 data=1 squashed=0
+44.668.500: system.cpu.iq: [sn:90751] tid=0 FREE FloatDiv free_tick=44668500 squashed=0
+44.686.000: system.cpu.iq: [sn:90874] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44686000 restricted=1 ctrl=1 data=1 squashed=0
+44.688.500: system.cpu.iq: [sn:90874] tid=0 FREE FloatDiv free_tick=44688500 squashed=0
+44.703.000: system.cpu.iq: [sn:91024] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44703000 restricted=1 ctrl=1 data=1 squashed=0
+44.705.500: system.cpu.iq: [sn:91024] tid=0 FREE FloatDiv free_tick=44705500 squashed=0
+44.766.500: system.cpu.iq: [sn:91084] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44766500 restricted=0 ctrl=0 data=0 squashed=0
+44.769.000: system.cpu.iq: [sn:91084] tid=0 FREE FloatDiv free_tick=44769000 squashed=0
+44.848.500: system.cpu.iq: [sn:91586] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44848500 restricted=1 ctrl=1 data=1 squashed=0
+44.851.000: system.cpu.iq: [sn:91586] tid=0 FREE FloatDiv free_tick=44851000 squashed=0
+44.868.500: system.cpu.iq: [sn:91709] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44868500 restricted=1 ctrl=1 data=1 squashed=0
+44.871.000: system.cpu.iq: [sn:91709] tid=0 FREE FloatDiv free_tick=44871000 squashed=0
+44.951.000: system.cpu.iq: [sn:91931] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=44951000 restricted=0 ctrl=0 data=0 squashed=0
+44.953.500: system.cpu.iq: [sn:91931] tid=0 FREE FloatDiv free_tick=44953500 squashed=0
+45.058.000: system.cpu.iq: [sn:92603] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45058000 restricted=1 ctrl=1 data=1 squashed=0
+45.060.500: system.cpu.iq: [sn:92603] tid=0 FREE FloatDiv free_tick=45060500 squashed=0
+45.189.500: system.cpu.iq: [sn:92925] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45189500 restricted=1 ctrl=1 data=1 squashed=0
+45.192.000: system.cpu.iq: [sn:92925] tid=0 FREE FloatDiv free_tick=45192000 squashed=0
+45.215.000: system.cpu.iq: [sn:93072] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45215000 restricted=1 ctrl=1 data=1 squashed=0
+45.217.500: system.cpu.iq: [sn:93072] tid=0 FREE FloatDiv free_tick=45217500 squashed=0
+45.231.500: system.cpu.iq: [sn:93222] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45231500 restricted=1 ctrl=1 data=1 squashed=0
+45.234.000: system.cpu.iq: [sn:93222] tid=0 FREE FloatDiv free_tick=45234000 squashed=0
+45.294.000: system.cpu.iq: [sn:93282] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45294000 restricted=0 ctrl=0 data=0 squashed=0
+45.296.500: system.cpu.iq: [sn:93282] tid=0 FREE FloatDiv free_tick=45296500 squashed=0
+45.376.000: system.cpu.iq: [sn:93784] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45376000 restricted=1 ctrl=1 data=1 squashed=0
+45.378.500: system.cpu.iq: [sn:93784] tid=0 FREE FloatDiv free_tick=45378500 squashed=0
+45.396.000: system.cpu.iq: [sn:93907] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45396000 restricted=1 ctrl=1 data=1 squashed=0
+45.398.500: system.cpu.iq: [sn:93907] tid=0 FREE FloatDiv free_tick=45398500 squashed=0
+45.413.000: system.cpu.iq: [sn:94057] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45413000 restricted=1 ctrl=1 data=1 squashed=0
+45.415.500: system.cpu.iq: [sn:94057] tid=0 FREE FloatDiv free_tick=45415500 squashed=0
+45.476.500: system.cpu.iq: [sn:94117] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45476500 restricted=0 ctrl=0 data=0 squashed=0
+45.479.000: system.cpu.iq: [sn:94117] tid=0 FREE FloatDiv free_tick=45479000 squashed=0
+45.558.500: system.cpu.iq: [sn:94619] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45558500 restricted=1 ctrl=1 data=1 squashed=0
+45.561.000: system.cpu.iq: [sn:94619] tid=0 FREE FloatDiv free_tick=45561000 squashed=0
+45.578.500: system.cpu.iq: [sn:94742] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45578500 restricted=1 ctrl=1 data=1 squashed=0
+45.581.000: system.cpu.iq: [sn:94742] tid=0 FREE FloatDiv free_tick=45581000 squashed=0
+45.595.500: system.cpu.iq: [sn:94892] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45595500 restricted=1 ctrl=1 data=1 squashed=0
+45.598.000: system.cpu.iq: [sn:94892] tid=0 FREE FloatDiv free_tick=45598000 squashed=0
+45.659.000: system.cpu.iq: [sn:94952] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45659000 restricted=0 ctrl=0 data=0 squashed=0
+45.661.500: system.cpu.iq: [sn:94952] tid=0 FREE FloatDiv free_tick=45661500 squashed=0
+45.741.000: system.cpu.iq: [sn:95454] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45741000 restricted=1 ctrl=1 data=1 squashed=0
+45.743.500: system.cpu.iq: [sn:95454] tid=0 FREE FloatDiv free_tick=45743500 squashed=0
+45.761.000: system.cpu.iq: [sn:95577] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45761000 restricted=1 ctrl=1 data=1 squashed=0
+45.763.500: system.cpu.iq: [sn:95577] tid=0 FREE FloatDiv free_tick=45763500 squashed=0
+45.778.000: system.cpu.iq: [sn:95727] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45778000 restricted=1 ctrl=1 data=1 squashed=0
+45.780.500: system.cpu.iq: [sn:95727] tid=0 FREE FloatDiv free_tick=45780500 squashed=0
+45.841.500: system.cpu.iq: [sn:95787] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45841500 restricted=0 ctrl=0 data=0 squashed=0
+45.844.000: system.cpu.iq: [sn:95787] tid=0 FREE FloatDiv free_tick=45844000 squashed=0
+45.923.500: system.cpu.iq: [sn:96289] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45923500 restricted=1 ctrl=1 data=1 squashed=0
+45.926.000: system.cpu.iq: [sn:96289] tid=0 FREE FloatDiv free_tick=45926000 squashed=0
+45.943.500: system.cpu.iq: [sn:96412] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=45943500 restricted=1 ctrl=1 data=1 squashed=0
+45.946.000: system.cpu.iq: [sn:96412] tid=0 FREE FloatDiv free_tick=45946000 squashed=0
+46.026.000: system.cpu.iq: [sn:96634] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46026000 restricted=0 ctrl=0 data=0 squashed=0
+46.028.500: system.cpu.iq: [sn:96634] tid=0 FREE FloatDiv free_tick=46028500 squashed=0
+46.133.000: system.cpu.iq: [sn:97306] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46133000 restricted=1 ctrl=1 data=1 squashed=0
+46.135.500: system.cpu.iq: [sn:97306] tid=0 FREE FloatDiv free_tick=46135500 squashed=0
+46.264.500: system.cpu.iq: [sn:97628] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46264500 restricted=1 ctrl=1 data=1 squashed=0
+46.267.000: system.cpu.iq: [sn:97628] tid=0 FREE FloatDiv free_tick=46267000 squashed=0
+46.290.000: system.cpu.iq: [sn:97775] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46290000 restricted=1 ctrl=1 data=1 squashed=0
+46.292.500: system.cpu.iq: [sn:97775] tid=0 FREE FloatDiv free_tick=46292500 squashed=0
+46.306.500: system.cpu.iq: [sn:97925] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46306500 restricted=1 ctrl=1 data=1 squashed=0
+46.309.000: system.cpu.iq: [sn:97925] tid=0 FREE FloatDiv free_tick=46309000 squashed=0
+46.369.000: system.cpu.iq: [sn:97985] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46369000 restricted=0 ctrl=0 data=0 squashed=0
+46.371.500: system.cpu.iq: [sn:97985] tid=0 FREE FloatDiv free_tick=46371500 squashed=0
+46.451.000: system.cpu.iq: [sn:98487] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46451000 restricted=1 ctrl=1 data=1 squashed=0
+46.453.500: system.cpu.iq: [sn:98487] tid=0 FREE FloatDiv free_tick=46453500 squashed=0
+46.471.000: system.cpu.iq: [sn:98610] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46471000 restricted=1 ctrl=1 data=1 squashed=0
+46.473.500: system.cpu.iq: [sn:98610] tid=0 FREE FloatDiv free_tick=46473500 squashed=0
+46.488.000: system.cpu.iq: [sn:98760] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46488000 restricted=1 ctrl=1 data=1 squashed=0
+46.490.500: system.cpu.iq: [sn:98760] tid=0 FREE FloatDiv free_tick=46490500 squashed=0
+46.551.500: system.cpu.iq: [sn:98820] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46551500 restricted=0 ctrl=0 data=0 squashed=0
+46.554.000: system.cpu.iq: [sn:98820] tid=0 FREE FloatDiv free_tick=46554000 squashed=0
+46.633.500: system.cpu.iq: [sn:99322] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46633500 restricted=1 ctrl=1 data=1 squashed=0
+46.636.000: system.cpu.iq: [sn:99322] tid=0 FREE FloatDiv free_tick=46636000 squashed=0
+46.653.500: system.cpu.iq: [sn:99445] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46653500 restricted=1 ctrl=1 data=1 squashed=0
+46.656.000: system.cpu.iq: [sn:99445] tid=0 FREE FloatDiv free_tick=46656000 squashed=0
+46.670.500: system.cpu.iq: [sn:99595] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46670500 restricted=1 ctrl=1 data=1 squashed=0
+46.673.000: system.cpu.iq: [sn:99595] tid=0 FREE FloatDiv free_tick=46673000 squashed=0
+46.734.000: system.cpu.iq: [sn:99655] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46734000 restricted=0 ctrl=0 data=0 squashed=0
+46.736.500: system.cpu.iq: [sn:99655] tid=0 FREE FloatDiv free_tick=46736500 squashed=0
+46.816.000: system.cpu.iq: [sn:100157] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46816000 restricted=1 ctrl=1 data=1 squashed=0
+46.818.500: system.cpu.iq: [sn:100157] tid=0 FREE FloatDiv free_tick=46818500 squashed=0
+46.836.000: system.cpu.iq: [sn:100280] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46836000 restricted=1 ctrl=1 data=1 squashed=0
+46.838.500: system.cpu.iq: [sn:100280] tid=0 FREE FloatDiv free_tick=46838500 squashed=0
+46.853.000: system.cpu.iq: [sn:100430] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46853000 restricted=1 ctrl=1 data=1 squashed=0
+46.855.500: system.cpu.iq: [sn:100430] tid=0 FREE FloatDiv free_tick=46855500 squashed=0
+46.916.500: system.cpu.iq: [sn:100490] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46916500 restricted=0 ctrl=0 data=0 squashed=0
+46.919.000: system.cpu.iq: [sn:100490] tid=0 FREE FloatDiv free_tick=46919000 squashed=0
+46.998.500: system.cpu.iq: [sn:100992] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=46998500 restricted=1 ctrl=1 data=1 squashed=0
+47.001.000: system.cpu.iq: [sn:100992] tid=0 FREE FloatDiv free_tick=47001000 squashed=0
+47.018.500: system.cpu.iq: [sn:101115] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=47018500 restricted=1 ctrl=1 data=1 squashed=0
+47.021.000: system.cpu.iq: [sn:101115] tid=0 FREE FloatDiv free_tick=47021000 squashed=0
+47.101.000: system.cpu.iq: [sn:101337] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=47101000 restricted=0 ctrl=0 data=0 squashed=0
+47.103.500: system.cpu.iq: [sn:101337] tid=0 FREE FloatDiv free_tick=47103500 squashed=0
+47.208.000: system.cpu.iq: [sn:102009] tid=0 ISSUE FloatDiv trivial=1 op_latency=6 issue_tick=47208000 restricted=1 ctrl=1 data=1 squashed=0
+47.210.500: system.cpu.iq: [sn:102009] tid=0 FREE FloatDiv free_tick=47210500 squashed=0

@@ -1,0 +1,9 @@
+### FloatDivChan: the slow divide issued and freed the FU (it executed)
+34.267.500: system.cpu.iq: [sn:49256] tid=0 ISSUE FloatDiv trivial=0 op_latency=24 issue_tick=34267500 restricted=0 ctrl=0 data=0 squashed=0
+34.279.000: system.cpu.iq: [sn:49256] tid=0 FREE FloatDiv free_tick=34279000 squashed=0
+
+### Commit stage: did sn:49256 reach commit head, and was it squashed?
+34.321.500: system.cpu.commit: Trying to commit head instruction, [sn:49256] [tid:0]
+34.321.500: system.cpu.commit: Retiring squashed instruction from ROB.
+
+### Commit stage: was sn:49256 ever actually committed? (must be empty)

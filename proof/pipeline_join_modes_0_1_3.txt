@@ -1,0 +1,30 @@
+# For every divsd that actually issued: had the secret-byte load completed before it issued, had the reload feeding the dividend
+# completed, and did the divide see 1.0?  (secret 1; modes 0, 1, 3; ticks, 500 ticks = 1 cycle)
+
+--- mode 0 ---
+  examples (squashed, secret load finished before the divide issued):
+  retired secretLoadDone=Y reloadDone=Y dividendSeen=1.0:n               x31
+   sn=49670 loadCmp=34631500 reloadCmp=34636000 divIssue=34636500  lat=24 restr=0 ctrl=0 data=0 bits=[ 0x3ff0000000000000 0x4008000000000000 0x3ff0000000000000 ] squashed
+   sn=53473 loadCmp=35600000 reloadCmp=35604500 divIssue=35605000  lat=24 restr=0 ctrl=0 data=0 bits=[ 0x3ff0000000000000 0x4008000000000000 0x3ff0000000000000 ] squashed
+   sn=56683 loadCmp=36503000 reloadCmp=36507500 divIssue=36508000  lat=24 restr=0 ctrl=0 data=0 bits=[ 0x3ff0000000000000 0x4008000000000000 0x3ff0000000000000 ] squashed
+   sn=59559 loadCmp=37402500 reloadCmp=37407000 divIssue=37407500  lat=24 restr=0 ctrl=0 data=0 bits=[ 0x3ff0000000000000 0x4008000000000000 0x3ff0000000000000 ] squashed
+   sn=62430 loadCmp=38300500 reloadCmp=38305000 divIssue=38305500  lat=24 restr=0 ctrl=0 data=0 bits=[ 0x3ff0000000000000 0x4008000000000000 0x3ff0000000000000 ] squashed
+  squashed secretLoadDone=n reloadDone=Y dividendSeen=1.0:n              x33
+  squashed secretLoadDone=Y reloadDone=Y dividendSeen=1.0:Y              x5
+
+--- mode 1 ---
+  examples (squashed, secret load finished before the divide issued):
+  retired secretLoadDone=Y reloadDone=Y dividendSeen=1.0:n               x38
+  squashed secretLoadDone=n reloadDone=Y dividendSeen=1.0:n              x115
+
+--- mode 3 ---
+  examples (squashed, secret load finished before the divide issued):
+  retired secretLoadDone=Y reloadDone=Y dividendSeen=1.0:n               x24
+   sn=47645 loadCmp=34678500 reloadCmp=34769500 divIssue=34771000  lat=24 restr=1 ctrl=0 data=1 bits=[ 0x4bd0e0 0x4008000000000000 0x4bd0e0 ] squashed
+   sn=50536 loadCmp=35535000 reloadCmp=35539500 divIssue=35540000  lat=24 restr=1 ctrl=0 data=1 bits=[ 0x3ff0000000000000 0x4008000000000000 0x3ff0000000000000 ] squashed
+   sn=54784 loadCmp=36509500 reloadCmp=36514000 divIssue=36514500  lat=24 restr=1 ctrl=0 data=1 bits=[ 0x3ff0000000000000 0x4008000000000000 0x3ff0000000000000 ] squashed
+   sn=57784 loadCmp=37414000 reloadCmp=37418500 divIssue=37419000  lat=24 restr=1 ctrl=0 data=1 bits=[ 0x3ff0000000000000 0x4008000000000000 0x3ff0000000000000 ] squashed
+   sn=60688 loadCmp=38305500 reloadCmp=38310000 divIssue=38310500  lat=24 restr=1 ctrl=0 data=1 bits=[ 0x3ff0000000000000 0x4008000000000000 0x3ff0000000000000 ] squashed
+  squashed secretLoadDone=n reloadDone=Y dividendSeen=1.0:n              x26
+  squashed secretLoadDone=Y reloadDone=Y dividendSeen=1.0:n              x1
+  squashed secretLoadDone=Y reloadDone=Y dividendSeen=1.0:Y              x4

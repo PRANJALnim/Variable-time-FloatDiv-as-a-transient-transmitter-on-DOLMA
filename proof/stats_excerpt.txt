@@ -1,0 +1,7 @@
+# From /home/mtp/pranjal/mtp_eval/verify_fresh/base_s1/stats.txt (baseline, secret 1, binary mtp_eval/transmitter_s1)
+system.cpu.iq.fu_full::FloatDiv                     0      0.00%     56.19% # attempts to use FU when none available
+system.cpu.iq.fu_full::SimdFloatDiv                 0      0.00%     58.37% # attempts to use FU when none available
+system.cpu.iq.FU_type_0::FloatDiv                   0      0.00%     77.18% # Type of FU issued
+system.cpu.iq.FU_type_0::SimdFloatDiv             100      0.21%     78.92% # Type of FU issued
+system.cpu.commit.op_class_0::FloatDiv              0      0.00%     75.93% # Class of committed instruction
+system.cpu.commit.op_class_0::SimdFloatDiv           50      0.20%     78.13% # Class of committed instruction

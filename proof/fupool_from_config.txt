@@ -1,0 +1,10 @@
+Functional-unit pool as instantiated by the running gem5 binary
+(extracted from config.ini, which gem5 writes from the embedded config).
+Each FU is shown with its copy count and the divide opclasses it holds.
+
+  FUList1  count=2
+      opClass=IntDiv  opLat=1  pipelined=false
+  FUList3  count=2
+      opClass=FloatDiv  opLat=12  pipelined=false
+  FUList6  count=1   <-- dedicated SSE divider (divsd)
+      opClass=SimdFloatDiv  opLat=24  pipelined=false

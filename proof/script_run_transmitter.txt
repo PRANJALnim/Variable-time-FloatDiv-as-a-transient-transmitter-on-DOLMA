@@ -1,0 +1,61 @@
+# Output of the final verify_transmitter.sh, run on compute-1 with BINDIR/OUT redirected to a test folder
+# (a third build location: slow divides for secret 1 = 3; earlier locations gave 2 and 5).
+==================================================================
+ STEP 0  Build the two secret programs (-O0, static)
+==================================================================
+gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+built t_s0 and t_s1:
+ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]
+--- the divide instruction in the program (expect exactly one divsd) ---
+  401d1e:	f2 0f 5e c1          	divsd  %xmm1,%xmm0
+
+==================================================================
+ STEP 1  No defense (mode 0): secret 0 versus secret 1
+   expect: secret 0 -> 0 slow divides,  secret 1 -> at least 1
+   (the exact number depends on where the program sits; we saw 2 and 5)
+==================================================================
+  secret 0   slow(op_latency=24)=0   fast(=6)=101
+  secret 1   slow(op_latency=24)=3   fast(=6)=98
+
+==================================================================
+ STEP 2  Functional-unit busy time of each slow divide (secret 1)
+   busy = free_tick - issue_tick;  500 ticks = 1 cycle at 2 GHz
+==================================================================
+  slow  sn:49809  busy=11500 ticks (=23 cycles)
+  slow  sn:54144  busy=11500 ticks (=23 cycles)
+  slow  sn:57324  busy=11500 ticks (=23 cycles)
+  fast  sn:46809  busy=2500 ticks (=5 cycles)
+  expect: slow ~11500 ticks (23 cycles), fast ~2500 ticks (5 cycles)
+
+==================================================================
+ STEP 3  The slow divide is squashed and never commits
+==================================================================
+  following sn:49809 with the commit trace switched on
+### FloatDivChan: the slow divide issued and freed the unit (it executed)
+34.818.500: system.cpu.iq: [sn:49809] tid=0 ISSUE FloatDiv trivial=0 op_latency=24 issue_tick=34818500 restricted=0 ctrl=0 data=0 squashed=0
+34.830.000: system.cpu.iq: [sn:49809] tid=0 FREE FloatDiv free_tick=34830000 squashed=0
+
+### Commit stage: did sn:49809 reach the head of the ROB, and was it squashed?
+34.872.500: system.cpu.commit: Trying to commit head instruction, [sn:49809] [tid:0]
+34.872.500: system.cpu.commit: Retiring squashed instruction from ROB.
+
+### Commit stage: was sn:49809 ever actually committed? (must be empty)
+  committed count for sn:49809 = 0   (expect 0)
+
+==================================================================
+ STEP 4  The four DOLMA modes, secret 1
+   modes 1,2 (memory+register protection): expect slow = 0
+   modes 3,4 (memory-only):                expect slow > 0, divide shows restricted=1
+   (modes 3,4 also contain one secret-independent slow divide with junk input)
+==================================================================
+  mode 1   slow(24)=0     divides flagged restricted=154
+  mode 2   slow(24)=0     divides flagged restricted=199
+  mode 3   slow(24)=6     divides flagged restricted=108
+  mode 4   slow(24)=6     divides flagged restricted=106
+
+==================================================================
+ DONE.  Proof files are in: /home/mtp/pranjal/mtp_eval/study_verify/script_test/out_t
+==================================================================
+1.6M	/home/mtp/pranjal/mtp_eval/study_verify/script_test/out_t
+/dev/sda4       381G  321G   60G  85% /
+

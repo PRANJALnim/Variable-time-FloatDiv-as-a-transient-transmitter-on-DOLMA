@@ -1,0 +1,11 @@
+# Busy interval of every divide, split by whether it was already squashed when it released the unit.
+# busy = free_tick - issue_tick (500 ticks = 1 cycle). Computed from base_s0.fdchan.log and base_s1.fdchan.log
+# by pairing each ISSUE line with the FREE line of the same sequence number.
+
+base_s0.fdchan.log - 100 divides with an ISSUE+FREE pair
+   squashed_at_free=0  op_latency= 6  busy=  2500 ticks (5 cyc)  x52
+   squashed_at_free=1  op_latency= 6  busy=  2500 ticks (5 cyc)  x48
+base_s1.fdchan.log - 100 divides with an ISSUE+FREE pair
+   squashed_at_free=0  op_latency= 6  busy=  2500 ticks (5 cyc)  x50
+   squashed_at_free=0  op_latency=24  busy= 11500 ticks (23 cyc)  x2
+   squashed_at_free=1  op_latency= 6  busy=  2500 ticks (5 cyc)  x48

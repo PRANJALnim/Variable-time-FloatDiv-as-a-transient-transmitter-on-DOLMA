@@ -1,0 +1,22 @@
+=== secret=1 across all five modes, STT off ===
+  s1  mode=0 stt=0  Baseline                 slow(24)=2  restricted=0
+  s1  mode=1 stt=0  DOLMA-Default (M+R)      slow(24)=0  restricted=154
+  s1  mode=2 stt=0  DOLMA-Conservative (M+R) slow(24)=0  restricted=213
+  s1  mode=3 stt=0  DOLMA-Default (M)        slow(24)=6  restricted=108
+  s1  mode=4 stt=0  DOLMA-Conservative (M)   slow(24)=8  restricted=106
+=== secret=1 across the four DOLMA modes, STT on ===
+  s1  mode=1 stt=1  STT-Spectre (M+R)        slow(24)=0  restricted=0
+  s1  mode=2 stt=1  STT-Futuristic (M+R)     slow(24)=0  restricted=99
+  s1  mode=3 stt=1  STT-Spectre (M)          slow(24)=0  restricted=53
+  s1  mode=4 stt=1  STT-Futuristic (M)       slow(24)=0  restricted=104
+=== secret=0 reference across all five modes (should be 0 slow everywhere) ===
+  s0  mode=0 stt=0  Baseline                 slow(24)=0  restricted=0
+  s0  mode=1 stt=0  DOLMA-Default (M+R)      slow(24)=0  restricted=154
+  s0  mode=2 stt=0  DOLMA-Conservative (M+R) slow(24)=0  restricted=213
+  s0  mode=3 stt=0  DOLMA-Default (M)        slow(24)=1  restricted=108
+  s0  mode=4 stt=0  DOLMA-Conservative (M)   slow(24)=1  restricted=106
+=== done ===
+3.2M	/home/mtp/pranjal/mtp_eval/verify_fresh/modes
+/dev/sda4       381G  321G   60G  85% /
+
+[exited with code 0]
